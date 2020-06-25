@@ -1,4 +1,4 @@
-# SampleNuxt
+# Customizable Color Mode
 
 ## Build Setup
 
