@@ -1,9 +1,17 @@
 <template>
   <div>
+    <ColorModePicker />
     <nuxt />
   </div>
 </template>
-
+<script>
+import ColorModePicker from "~/components/ColorModePicker.vue";
+export default {
+  components: {
+    ColorModePicker
+  }
+};
+</script>
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",

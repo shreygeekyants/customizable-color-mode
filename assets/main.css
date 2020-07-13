@@ -17,8 +17,9 @@
 }
 
 .sepia-mode {
-  --color: #433422;
-  --color-secondary: #504231;
+  --color: #7a4f0f;
+  --color-secondary: #826849;
+  --color-primary: #f75718;
   --bg: #f1e7d0;
   --bg-secondary: #eae0c9;
   --border-color: #ded0bf;
@@ -31,6 +32,17 @@ body {
   color: var(--color);
   transition: background-color 0.3s;
 }
+.theme-container {
+  border: solid 4px var(--border-color);
+  background-color: var(--bg-secondary);
+  color: var(--color);
+}
+.button-div {
+  background-color: var(--bg);
+}
 a {
+  color: var(--color-primary);
+}
+h1 {
   color: var(--color-primary);
 }

@@ -1,10 +1,9 @@
 <template>
   <div class="container">
     <div>
+      <!-- <ColorModePicker /> -->
       <logo />
-      <h3 class="title">This is my first Nuxt Application</h3>
-
-      <ColorModePicker />
+      <h1 class="title">The theme will change on the go</h1>
     </div>
   </div>
 </template>
@@ -34,9 +33,7 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 80px;
-  color: #35495e;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
